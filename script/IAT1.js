@@ -3,43 +3,91 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Black people', //Will appear in the data.
+			name : 'Freedom', //Will appear in the data.
 			title : {
-				media : {word : 'Black people'}, //Name of the category presented in the task.
+				media : {word : 'Freedom'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    {image : 'freedom/free1.jpg'}, 
+    			{image : 'freedom/free2.jpg'}, 
+    			{image : 'freedom/free3.jpg'}, 
+    			{image : 'freedom/free4.jpg'}, 
+    			{image : 'freedom/free5.jpg'}, 
+    			{image : 'freedom/free6.jpg'}, 
+    			{image : 'freedom/free7.jpg'}, 
+    			{image : 'freedom/free8.jpg'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'White people', //Will appear in the data.
+			name : 'Prison', //Will appear in the data.
 			title : {
-				media : {word : 'White people'}, //Name of the category presented in the task.
+				media : {word : 'Prison'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
-    			{image : 'yf5.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}, 
-    			{image : 'ym5.jpg'}			], 
+    		    {image : 'prison/prison1.jpg'}, 
+    			{image : 'prison/prison2.jpg'}, 
+    			{image : 'prison/prison3.jpg'},
+    			{image : 'prison/prison4.jpg'}, 
+    			{image : 'prison/prison5.jpg'}, 
+    			{image : 'prison/prison6.jpg'}, 
+    			{image : 'prison/prison7.jpg'}, 
+    			{image : 'prison/prison8.jpg'} 
+				
+				], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+		},
+			attribute1 :
+			{
+				name : 'Bad',
+				title : {
+					media : {word : 'Bad'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'awful'},
+					{word: 'failure'},
+					{word: 'agony'},
+					{word: 'hurt'},
+					{word: 'horrible'},
+					{word: 'terrible'},
+					{word: 'nasty'},
+					{word: 'evil'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+		attribute2 :
+			{
+				name : 'Good',
+				title : {
+					media : {word : 'Good'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'laughter'},
+					{word: 'happy'},
+					{word: 'glorious'},
+					{word: 'joy'},
+					{word: 'wonderful'},
+					{word: 'peace'},
+					{word: 'pleasure'},
+					{word: 'love'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://teri-trevains.github.io/IAT1/images/'
 		} 
 	});
 });
