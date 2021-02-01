@@ -12,7 +12,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		    {image : 'freedom/free1.JPG'},
     			{image : 'freedom/free2.jpg'}, 
-    			{image : 'freedom/free3.JPG'},
+    			{image : 'freedom/free3.jpg'},
     			{image : 'freedom/free4.jpg'}, 
     			{image : 'freedom/free5.jpg'}, 
     			{image : 'freedom/free6.jpg'}, 
