@@ -708,7 +708,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 }],
             // this stimulus used for giving feedback, in this case only the error notification
             error : [{
-                handle:'error', location: {top: 85}, css:{color:'red','font-size':'4em'}, media: {word:'X'}, nolog:true
+                handle:'error', location: {top: 81}, css:{color:'red','font-size':'4em'}, media: {word:'X'}, nolog:true
             }],
 
             touchInputStimuli: [
