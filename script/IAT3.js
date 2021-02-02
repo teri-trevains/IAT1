@@ -2,6 +2,13 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     var API = new APIConstructor();
 
 	return iatExtension({
+        remindErrorText : '<p align="center" style="font-size:"1.0em"; font-family:arial">' +
+            'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+            'Press the <b>other key</b> to continue.<p/>',
+
+        remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
+            'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+            'Touch the <b>other side</b> to continue.<p/>',
 		category1 : {
 			name : 'Civilian', //Will appear in the data.
 			title : {
